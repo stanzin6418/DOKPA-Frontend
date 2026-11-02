@@ -8,8 +8,19 @@ Welcome to the Dokpa Expeditions documentation! This folder contains all the gui
 - **[README.md](README.md)** - Complete project documentation with features, tech stack, and structure
 - **[QUICKSTART.md](QUICKSTART.md)** - Quick start guide for developers (3 steps to get running)
 
-### Deployment
-- **[DEPLOYMENT.md](DEPLOYMENT.md)** - Comprehensive deployment guide for Hostinger
+### Deployment & Build
+
+- **[BUILD_FLOW.md](BUILD_FLOW.md)** NEW - Complete build flow reference
+  - Project structure, design system tokens, routing map
+  - Local dev workflow & production build output
+  - Data layer overview (tripsData, blogData, etc.)
+
+- **[CICD_PIPELINE.md](CICD_PIPELINE.md)** NEW - GitHub Actions to Hostinger CI/CD
+  - Pipeline architecture (push to build to FTP to live)
+  - One-time FTP secrets setup, auto/manual trigger
+  - Monitoring, rollback, post-deploy checklist
+
+- **[DEPLOYMENT.md](DEPLOYMENT.md)** - Manual deployment guide (cPanel / FTP)
   - Build process
   - FTP/cPanel upload instructions
   - Troubleshooting
